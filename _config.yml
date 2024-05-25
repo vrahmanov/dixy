@@ -55,24 +55,24 @@ about_content: | # this will include new lines to allow paragraphs
   Geographic Area: Raanana
 
 content:
-  # - title: Projects # Title for the section
-  #   layout: list # Type of content section (list/text)
-  #   content:
-  #     - layout: top-middle
-  #       title: SO MANY , just choose
-  #       link: https://github.com/vrahmanov?tab=repositories
-  #       # link_text: Project Website
-  #       additional_links:
-  #         - title:  gist
-  #           icon: fab fa-github
-  #           url: https://github.com/vrahmanov?tab=repositories
-  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-  #         #   icon: fab fa-github
-  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-  #       quote: >
-  #         Over the past century , i have been forking and supporting multiple projects , privately and publicly , im proud of each one of them. 
-  #       description: | # this will include new lines to allow paragraphs
-  #         I like to make automation go above and beyond the basic needs , from local to remote , from onprem to multicloud - you name it, i probably met it.
+  - title: About me - קצת עליי # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Raanana - רעננה
+        # link: https://github.com/vrahmanov?tab=repositories
+        # link_text: Project Website
+        # additional_links:
+        #   - title:  gist
+        #     icon: fab fa-github
+        #     url: https://github.com/vrahmanov?tab=repositories
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        #   Over the past century , i have been forking and supporting multiple projects , privately and publicly , im proud of each one of them. 
+        # description: | # this will include new lines to allow paragraphs
+        #   I like to make automation go above and beyond the basic needs , from local to remote , from onprem to multicloud - you name it, i probably met it.
 
   - title: Languages # Title for the section
     layout: list # Type of content section (list/text)
