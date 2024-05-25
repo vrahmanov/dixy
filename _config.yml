@@ -46,13 +46,13 @@ darkmode: never
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
+about_title: מלטז maltese
 about_profile_image: images/test.png
-about_content: | # this will include new lines to allow paragraphs
-  Name: dixy \n
-  Y-born: 2022\n
-  Owner : Romy\n
-  Geographic Area: Raanana\n
+# about_content: | # this will include new lines to allow paragraphs
+#   Name: dixy \n
+#   Y-born: 2022\n
+#   Owner : Romy\n
+#   Geographic Area: Raanana\n
 
 content:
   - title: About me - קצת עליי # Title for the section
@@ -60,6 +60,12 @@ content:
     content:
       - layout: top-middle
         title: Raanana - רעננה
+      - layout: top-middle
+        title: Phone - טלפון להתקשרות
+      - layout: top-middle
+        title: Phone - טלפון להתקשרות
+      - layout: top-middle
+        title: Critical info - מידע קריטי
         # link: https://github.com/vrahmanov?tab=repositories
         # link_text: Project Website
         # additional_links:
