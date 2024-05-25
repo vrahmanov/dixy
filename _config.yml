@@ -49,10 +49,10 @@ darkmode: never
 # about_title: About Me
 about_profile_image: images/test.png
 about_content: | # this will include new lines to allow paragraphs
-  Name: dixy 
-  Y-born: 2022
-  Owner : Romy
-  Geographic Area: Raanana
+  Name: dixy \n
+  Y-born: 2022\n
+  Owner : Romy\n
+  Geographic Area: Raanana\n
 
 content:
   - title: About me - קצת עליי # Title for the section
