@@ -1,0 +1,259 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Dixy
+title: 
+email: xcode2vlad@gmail.com
+website: github.com/vrahmanov
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+# twitter_username: NONE
+github_username:  vrahmanov
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: NONE
+linkedin_username: vladi-rahmanov
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: NONE
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://github.com/vrahmanov
+
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/test.png
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Vlad and I'm a senior devops engineer. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  over the past century ive been doing alot , LOVE DevOps as a concept , and now for the fun part - i am most skilled in: 
+  ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+  ![Shell Script](https://img.shields.io/badge/shell_script-%25121025.svg?style=for-the-badge&logo=gnu-bash&logoColor=black)
+  ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+  ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
+  ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
+  ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+  ![GCP](https://img.shields.io/badge/gcp-3120A0?style=for-the-badge&logo=googlecloud&logoColor=ffdd98)
+  ![Packer](https://img.shields.io/badge/packer-%23E7EEF0.svg?style=for-the-badge&logo=packer&logoColor=%2302A8EF)
+  ![Apache Groovy](https://img.shields.io/badge/Apache%20Groovy-4298B8.svg?style=for-the-badge&logo=Apache+Groovy&logoColor=white)
+  ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white)
+  ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+  ![GitLab CI](https://img.shields.io/badge/gitlab-12345A0?style=for-the-badge&logo=gitlab&logoColor=red)
+  ![ArgoCD](https://img.shields.io/badge/argocd-orange?style=for-the-badge&logo=argocd)
+  
+  There are more ... but , it breaks this pretty picture :-) 
+
+content:
+  
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: SO MANY , just choose
+        link: https://github.com/vrahmanov?tab=repositories
+        # link_text: Project Website
+        additional_links:
+          - title:  gist
+            icon: fab fa-github
+            url: https://github.com/vrahmanov?tab=repositories
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Over the past century , i have been forking and supporting multiple projects , privately and publicly , im proud of each one of them. 
+        description: | # this will include new lines to allow paragraphs
+          I like to make automation go above and beyond the basic needs , from local to remote , from onprem to multicloud - you name it, i probably met it.
+
+      - layout: top-middle
+        title: gists gists gist them all 
+        link: https://gist.github.com/vrahmanov/public
+        # link_text: Project Website
+        additional_links:
+          - title:  gist
+            icon: fab fa-github
+            url: https://gist.github.com/vrahmanov/public
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Some of the best and most used solution eventually are held in gists ( in any field ) - even great ideas and skeletons start some where
+        description: | # this will include new lines to allow paragraphs
+          One day i found a solution to a major issue i had in a public gist , ever since im holding some of my public knowledge there as well , 
+          maybe it will help some one  - one day , the same way i got my solution :-) . 
+      - layout: top-middle
+        title: K3d mini cluster lab
+        link: github.com/vrahmanov/k3dcluster_tester
+        # link_text: Project Website
+        additional_links:
+          - title:  vrahmanov/k3dcluster_tester
+            icon: fab fa-github
+            url: https://github.com/vrahmanov/k3dcluster_tester
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Every devops needs to feel the new buzz words without a hussle so , if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          I started this project as a way if learning <mark>K3D</mark> and it has since grown into a fully k8s Mini monster. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+      - layout: top-middle
+        title: Terraform Python Wrap
+        link: github.com/vrahmanov/nginx_prod_grade
+        # link_text: Project Website
+        additional_links:
+          - title:  vrahmanov/nginx_prod_grade
+            icon: fab fa-github
+            url: https://github.com/vrahmanov/nginx_prod_grade
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          ---No longer maintained--- 
+          I Remember the times when developer wanted to provision a set of AWS assets without knowing terraform , so i created them a small tool for it :-) 
+        description: | # this will include new lines to allow paragraphs
+          As terraform became a key player in the all infra levels on all providers , more and more developers wanted to create resources without playing with HCL. thats how this was born .
+
+
+      - layout: top-middle
+        title: GKE cluster terraform module
+        link: github.com/vrahmanov/dl_gcp_poc
+        # link_text: Project Website
+        additional_links:
+          - title:  vrahmanov/dl_gcp_poc
+            icon: fab fa-github
+            url: https://github.com/vrahmanov/dl_gcp_poc
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+         A small hcl module that provisions a GKE cluster with network and deploys a few known solutions with the providers of Hashicorp and others.
+        description: | # this will include new lines to allow paragraphs
+          The request was - Create a GKE cluster with network , then provision a few apps with helm , manage it all in terraform with PROPER dependencies . 
+
+# https://github.com/vrahmanov/dl_gcp_poc
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Qwilt
+        link: https://www.qwilt.com/
+        # link_text: boringcompany.com
+        sub_title: DevOps
+        caption: 2023 - present
+        quote: >
+          OpenCache solution provided by a true top notch techstack company.
+        description: | # this will include new lines to allow paragraphs
+            So much , from gitlab CI based on gitflow and trunkbased dev to CD using argo and terraform , building Kubernetes Operators and CRDs to allow a fluid CD to a HUGE echo system.
+            GCP and AWS at once , with multiple Sec and tests gates , Fun Fun Fun for everyone !
+
+      - layout: left
+        title: Locusview
+        link: Locusview.com
+        # link_text: boringcompany.com
+        sub_title: DevOps
+        caption: 2021 - 2023
+        quote: >
+          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            Every company needs its infra and networks properly administered and Locusview is no exception. Digging holes is hard and I play my part making sure the RND keeps pushing code while our infra scales out to support it . Iv'e  lead a major change in embracing a TRUE infra as code methodology .
+            While on AWS as a provider , Jenkins , GitHub actions and ECS (CodePipeline), we allowed a flexible Dev -> Prod changes with MINIMUM of breaking changes ( dont recall i had any LOL  ). 
+      
+      - layout: left
+        title: Previous Companies
+        link: https://www.linkedin.com/in/vladi-rahmanov/
+        # link_text: boringcompany.com
+        sub_title: DevOps
+        caption: 2016 - 2021
+        quote: >
+          Baking the Dev and Popping the Ops , while pushing new techs and embracing more and more BUZZ words and frameworks 
+        description: | # this will include new lines to allow paragraphs
+              In order to keep this page as clean as possible - ill be asking you to proceed with my further history with linked in , its up to date . 
+              i promise .
+
+
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: AWS SAA
+        caption: 2018 - 2018
+        sub_title: AWS solution architect - associate
+      - layout: left
+        title: CCNA
+        caption: 2013 - 2014
+        sub_title: CCNA Network certificate - via IITC collage
+      - layout: left
+        title: Harav Tchumi
+        caption: 2009 - 2010
+        sub_title: Associate's Computer Science degree 
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        # description: | # this will include new lines to allow paragraphs
+        #   During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+
+        #   I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+
+
+  - title: Languages # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Hebrew
+      - layout: top-middle
+        title: English
+      - layout: top-middle
+        title: Russian
+        # caption: 2009 - 2010
+        # sub_title: Associate's Computer Science degree 
+
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in devops and software engineering some of my other interests and hobbies are:
+      - VR
+      - Online Gaming (paused due to my new borns)
+      - A GOOD beer 
+#      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+#      Look at this cool image  
+#      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
